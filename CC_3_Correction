@@ -5,5 +5,8 @@ x = 10*np.random.random
 y = params[0] + params[1]*x + np.random.normal(size=len(x))
 
 def moyenne(x) :
-  m= sum(x)/len(x)
-  return m
+	for i in range(len(x)):
+	  somme = somme + x[i]	
+	  resultat = somme / len(x)
+	return resultat
+	return somme
