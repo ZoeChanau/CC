@@ -1,0 +1,9 @@
+import numpy as np
+
+params=(0,1)
+x = 10*np.random.random
+y = params[0] + params[1]*x + np.random.normal(size=len(x))
+
+def moyenne(x) :
+  m= sum(x)/len(x)
+  return m
