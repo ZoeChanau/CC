@@ -1,0 +1,32 @@
+import numpy as np
+
+params=(0,1)
+x = 10*np.random.random(100)
+y = params[0] + params[1]*x + np.random.normal(size= len(x))
+
+N=len(x)-1
+somme = 0
+produit =[]
+var=
+
+def moyenne(x):
+	for i in range(99):
+		somme = somme + x[i]	
+		resultat = somme / len(x)
+	return resultat
+	return somme
+
+def produit_scalaire(x,y):
+	for i in range(99):
+		produit[i]=x[i]*y[i]
+	return produit
+
+def variance(x):
+	for i in range(99):
+		
+		var=np.square(sum(somme-resultat)*sum((somme-resultat)/len(x)))
+
+def covariance(x,y):
+	#Code
+
+def linear_parameters(x,y):
